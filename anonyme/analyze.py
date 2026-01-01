@@ -3,6 +3,7 @@ from anonyme.logging.audit import get_logger
 from pydantic import BaseModel
 
 from anonyme.detectors.regex import RegexDetector
+from anonyme.detectors.ner import NerDetector
 from anonyme.decision import decide
 
 logger = get_logger(__name__)
@@ -13,13 +14,17 @@ class AnalyzeResult(BaseModel):
     reasons: List[str]
     metadata: Dict[str, str]
 
-detector = RegexDetector()
+regex_detector = RegexDetector()
+ner_detector = NerDetector()
 
 def analyze(prompt: str, context: List[Dict[str, str]]) -> AnalyzeResult:
     logger.info("Analyzing prompt: %s", prompt)
     logger.info("Context: %s", context)
     
-    findings = detector.detect(prompt)
+    findings = []
+    findings.extend(regex_detector.detect(prompt))
+    findings.extend(ner_detector.detect(prompt))
+    
     decision = decide(findings, context)
     
     return AnalyzeResult(

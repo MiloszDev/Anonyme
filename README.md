@@ -34,3 +34,18 @@ d. Conversation intent state
 
 
 Core system operations
+
+
+
+
+
+---
+
+TODO NOW
+- Implement Context Analysis
+- Actual redaction/anonymization functionality
+- Policy system -> Configurable policies based on:
+  - User roles (admin vs regular user)
+  - Data classification levels
+  - Compliance requirements (GDPR, HIPAA)
+  - Custom risk thresholds per category
