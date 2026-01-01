@@ -3,6 +3,16 @@ import subprocess
 import json
 
 
+def extract_json(output: str) -> dict:
+    """Extract JSON from output that may contain log messages"""
+    lines = output.strip().split('\n')
+    for line in lines:
+        line = line.strip()
+        if line.startswith('{'):
+            return json.loads(line)
+    raise ValueError("No JSON found in output")
+
+
 class TestCLIInterface:
     
     def test_cli_help(self):
@@ -54,8 +64,7 @@ class TestCLIInterface:
         
         assert result.returncode == 0
         
-        # Parse JSON output
-        data = json.loads(result.stdout)
+        data = extract_json(result.stdout)
         assert "version" in data
         assert "total_prompts" in data
         assert "results" in data
@@ -92,7 +101,7 @@ class TestCLIInterface:
             text=True
         )
         
-        data = json.loads(result.stdout)
+        data = extract_json(result.stdout)
         assert data["total_prompts"] == 1
         result_item = data["results"][0]
         assert "prompt" in result_item
@@ -119,6 +128,6 @@ class TestCLIInterface:
             text=True
         )
         
-        data = json.loads(result.stdout)
+        data = extract_json(result.stdout)
         assert data["results"][0]["reasons"] == []
         assert data["results"][0]["risk_score"] == 0.0
