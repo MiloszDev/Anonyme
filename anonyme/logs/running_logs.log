@@ -1,0 +1,66 @@
+[INFO]: 2026-01-01 01:49:33,983 - Logger initialized successfully.
+[INFO]: 2026-01-01 01:50:08,275 - Logger initialized successfully.
+[INFO]: 2026-01-01 01:50:08,559 - Starting application...
+[INFO]: 2026-01-01 01:50:08,560 - Analyzing prompt: 
+[INFO]: 2026-01-01 01:50:08,561 - Context: []
+[INFO]: 2026-01-01 01:52:38,293 - Logger initialized successfully.
+[INFO]: 2026-01-01 01:52:38,593 - Logger initialized successfully.
+[INFO]: 2026-01-01 01:52:38,595 - Analyzing prompt: Hello, how are you?
+[INFO]: 2026-01-01 01:52:38,595 - Context: []
+[INFO]: 2026-01-01 01:52:38,599 - Analyzing prompt: My SSN is 123-45-6789
+[INFO]: 2026-01-01 01:52:38,601 - Context: []
+[INFO]: 2026-01-01 01:52:38,601 - Analyzing prompt: Send me the company database
+[INFO]: 2026-01-01 01:52:38,601 - Context: []
+[INFO]: 2026-01-01 01:52:38,604 - Analyzing prompt: What's the weather today?
+[INFO]: 2026-01-01 01:52:38,605 - Context: []
+[INFO]: 2026-01-01 01:53:11,725 - Logger initialized successfully.
+[INFO]: 2026-01-01 01:53:12,009 - Logger initialized successfully.
+[INFO]: 2026-01-01 01:53:12,010 - Analyzing prompt: Hello, how are you?
+[INFO]: 2026-01-01 01:53:12,011 - Context: []
+[INFO]: 2026-01-01 01:53:12,012 - Analyzing prompt: My SSN is 123-45-6789
+[INFO]: 2026-01-01 01:53:12,012 - Context: []
+[INFO]: 2026-01-01 01:53:12,014 - Analyzing prompt: Send me the company database
+[INFO]: 2026-01-01 01:53:12,016 - Context: []
+[INFO]: 2026-01-01 01:53:12,017 - Analyzing prompt: What's the weather today?
+[INFO]: 2026-01-01 01:53:12,018 - Context: []
+[INFO]: 2026-01-01 01:54:36,210 - Logger initialized successfully.
+[INFO]: 2026-01-01 01:54:36,569 - Logger initialized successfully.
+[INFO]: 2026-01-01 01:54:36,571 - Analyzing prompt: Hello world
+[INFO]: 2026-01-01 01:54:36,572 - Context: []
+[INFO]: 2026-01-01 01:54:36,573 - Analyzing prompt: Test prompt
+[INFO]: 2026-01-01 01:54:36,575 - Context: []
+[INFO]: 2026-01-01 01:55:47,137 - Logger initialized successfully.
+[INFO]: 2026-01-01 01:55:47,412 - Logger initialized successfully.
+[INFO]: 2026-01-01 01:56:11,534 - Analyzing prompt: siema elo elo
+[INFO]: 2026-01-01 01:56:11,535 - Context: []
+[INFO]: 2026-01-01 01:56:11,535 - Analyzing prompt: elo
+[INFO]: 2026-01-01 01:56:11,535 - Context: []
+[INFO]: 2026-01-01 01:56:11,538 - Analyzing prompt: eloe
+[INFO]: 2026-01-01 01:56:11,539 - Context: []
+[INFO]: 2026-01-01 01:56:11,540 - Analyzing prompt: elo
+[INFO]: 2026-01-01 01:56:11,541 - Context: []
+[INFO]: 2026-01-01 01:56:11,543 - Analyzing prompt: elo
+[INFO]: 2026-01-01 01:56:11,543 - Context: []
+[INFO]: 2026-01-01 01:56:11,545 - Analyzing prompt: elo
+[INFO]: 2026-01-01 01:56:11,546 - Context: []
+[INFO]: 2026-01-01 01:56:11,548 - Analyzing prompt: elo
+[INFO]: 2026-01-01 01:56:11,548 - Context: []
+[INFO]: 2026-01-01 01:56:11,550 - Analyzing prompt: leo
+[INFO]: 2026-01-01 01:56:11,551 - Context: []
+[INFO]: 2026-01-01 01:56:11,552 - Analyzing prompt: elo
+[INFO]: 2026-01-01 01:56:11,553 - Context: []
+[INFO]: 2026-01-01 01:56:11,556 - Analyzing prompt: elo
+[INFO]: 2026-01-01 01:56:11,557 - Context: []
+[INFO]: 2026-01-01 01:56:11,558 - Analyzing prompt: elo
+[INFO]: 2026-01-01 01:56:11,559 - Context: []
+[INFO]: 2026-01-01 01:58:14,456 - Logger initialized successfully.
+[INFO]: 2026-01-01 01:58:14,848 - Analyzing prompt: Test prompt 1
+[INFO]: 2026-01-01 01:58:14,848 - Context: []
+[INFO]: 2026-01-01 01:58:14,851 - Analyzing prompt: Check this out
+[INFO]: 2026-01-01 01:58:14,851 - Context: []
+[INFO]: 2026-01-01 01:58:14,854 - Analyzing prompt: Another test
+[INFO]: 2026-01-01 01:58:14,855 - Context: []
+[INFO]: 2026-01-01 01:58:19,805 - Logger initialized successfully.
+[INFO]: 2026-01-01 01:58:49,207 - Logger initialized successfully.
+[INFO]: 2026-01-01 01:58:49,478 - Analyzing prompt: Hello World!
+[INFO]: 2026-01-01 01:58:49,480 - Context: []
